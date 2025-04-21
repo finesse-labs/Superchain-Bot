@@ -11,7 +11,6 @@ from tasks import *
 SHUFFLE_WALLETS = True
 PAUSE_BETWEEN_WALLETS = [40, 125]
 PAUSE_BETWEEN_MODULES = [40, 100]
-PAUSE_BETWEEN_CYCLES = [3600, 3600]  # Пауза между кругами для инфинити режима
 RETRIES = 3  # Сколько раз повторять 'зафейленное' действие
 PAUSE_BETWEEN_RETRIES = 15  # Пауза между повторами
 WAIT_FOR_RECEIPT = True     # Если True, будет ждать получения средств во входящей сети перед запуском очередного модуля
