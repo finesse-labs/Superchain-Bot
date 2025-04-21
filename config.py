@@ -2,10 +2,8 @@ MOBILE_PROXY = False  # True - мобильные proxy/False - обычные p
 ROTATE_IP = False  # Настройка только для мобильных proxy
 SLIPPAGE = 0.03
 
-UNICHAIN_RPC = 'https://unichain-rpc.publicnode.com'  # https://chainlist.org/chain/10143
-
-TG_BOT_TOKEN = '7879172453:AAFTk2VHUAfnD6vEbCeLHONvFIbdACBMJ5U'  # str ('7879172453:AAFTk2VHUAfnD6vEbCeLHONvFIbdACBMJ5U')
-TG_USER_ID = 5113512355  # int (22822822) or None
+TG_BOT_TOKEN = ''  # str ('1234567890:abcde2VHUAfnD6vEbCeLHONvFIbdACBMJ5U')
+TG_USER_ID = None  # int (1234567890) or None
 
 # TASKS
 from tasks import * 

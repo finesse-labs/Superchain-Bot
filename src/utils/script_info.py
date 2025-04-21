@@ -22,6 +22,8 @@ GAS_LIMIT_MULTIPLIER = 1.5
 GAS_PRICE_MULTIPLIER = 1.3
 
 
+UNICHAIN_RPC = 'https://unichain-rpc.publicnode.com'  # https://chainlist.org/chain/10143
+
 OMNICHAIN_WRAPED_NETWORKS = {
     1                       : 1,
     2                       : 2,
