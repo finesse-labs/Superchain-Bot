@@ -9,6 +9,21 @@ TEST = [
     ["BASE_RANDOM_TX"]
 ]
 
+MULTICHAIN_ACTIVITY = [
+    ["OKX_WITHDRAW"],                                  
+    (
+        ["BASE_RANDOM_TX", "ZORA_RANDOM_TX"],          
+        ["SONEIUM_RANDOM_TX", "LISK_RANDOM_TX"]       
+    ),                                                                                   
+    ["SWELL_RANDOM_TX", "UNICHAIN_RANDOM_TX"]
+]
+
+BRIDGE_CLAIM_SIMPLE = [
+    ["OKX_WITHDRAW"],                                  
+    ["STARGATE_BRIDGE", "DISPERSE_BRIDGE"],             
+    ["CLAIM_BADGES"]                             
+]
+
 
 OKX_WITHDRAW = ["OKX_WITHDRAW"]
 DISPERSE_BRIDGE = ["DISPERSE_BRIDGE"]
