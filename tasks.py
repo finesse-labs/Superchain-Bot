@@ -3,7 +3,7 @@
 # --- Superchain settings -- #
 # Выполнение транзакций по отдельным чейнам, по спискам активностей из RandomDailyTxConfig
 
-TASKS = ["TEST"]
+TASKS = ["CLAIM_BADGES"]
 
 TEST = [
     ["BASE_RANDOM_TX"]
