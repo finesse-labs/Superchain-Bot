@@ -108,6 +108,8 @@ async def main_loop() -> None:
         if module == 1:
             if SHUFFLE_WALLETS:
                 random.shuffle(private_keys)
+            print(private_keys)
+            print(proxies)
             logger.debug("Generating new database")
             await generate_database(engine, private_keys, proxies)
 

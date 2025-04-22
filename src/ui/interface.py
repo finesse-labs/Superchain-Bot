@@ -36,7 +36,7 @@ PROJECT_INFO = Panel(
 [white]─────────────────────────────────────────────────────[/white]
 [bold yellow]⚡ Devs:[/] [link=https://t.me/ftp_crypto]@ftp_crypto[/link] | [link=https://t.me/cryptoforto]@cryptoforto[/link]
 [bold yellow]💬 Support: [white]https://t.me/+HlDlu6F3iGwzMjFi[/white][/bold yellow]
-[bold yellow]📦 GitHub: [white]https://github.com/noxuspace/cryptofortochka/[/white][/bold yellow]
+[bold yellow]📦 GitHub: [white]https://github.com/finesse-labs/Superchain-Bot[/white][/bold yellow]
 """,
     title="[bold green] ⚡ Info ⚡[/bold green]",
     border_style="bright_green",
