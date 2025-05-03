@@ -9,8 +9,8 @@ TG_USER_ID = None  # int (1234567890) or None
 from tasks import * 
 
 SHUFFLE_WALLETS = True
-PAUSE_BETWEEN_WALLETS = [40, 125]
-PAUSE_BETWEEN_MODULES = [40, 100]
+PAUSE_BETWEEN_WALLETS = [40, 100]
+PAUSE_BETWEEN_MODULES = [40, 125]
 RETRIES = 3  # Сколько раз повторять 'зафейленное' действие
 PAUSE_BETWEEN_RETRIES = 15  # Пауза между повторами
 WAIT_FOR_RECEIPT = True     # Если True, будет ждать получения средств во входящей сети перед запуском очередного модуля
@@ -92,6 +92,15 @@ class RandomDailyTxConfig:
 
         'RANDOM_TXS',
         'RANDOM_SWAPS',
+        'SWAP_ALL_TO_ETH'
+    ]
+
+    MODE_MODULES = [
+        'WRAPPER_UNWRAPPER',
+
+        'RANDOM_TXS',
+        'RANDOM_SWAPS',
+        'CONTRACT_DEPLOY',
         'SWAP_ALL_TO_ETH'
     ]
 

@@ -3,7 +3,7 @@
 # --- Superchain settings -- #
 # Выполнение транзакций по отдельным чейнам, по спискам активностей из RandomDailyTxConfig
 
-TASKS = ["CLAIM_BADGES"]
+TASKS = ["MODE_RANDOM_TX"]
 
 TEST = [
     ["BASE_RANDOM_TX"]
@@ -35,6 +35,7 @@ UNICHAIN_RANDOM_TX = ["UNICHAIN_RANDOM_TX"]
 SONEIUM_RANDOM_TX = ["SONEIUM_RANDOM_TX"]
 ZORA_RANDOM_TX = ["ZORA_RANDOM_TX"]
 SWELL_RANDOM_TX = ["SWELL_RANDOM_TX"]
+MODE_RANDOM_TX = ["MODE_RANDOM_TX"]
 STARGATE_BRIDGE  = ["STARGATE_BRIDGE"]
 
 CLAIM_BADGES = ["CLAIM_BADGES"]

@@ -384,6 +384,10 @@ async def process_swell_activities(route: Route) -> Optional[bool]:
     random.shuffle(activities)
     return await process_activities(route, 'SWELL', activities)
 
+async def process_mode_activities(route: Route) -> Optional[bool]:
+    activities = RandomDailyTxConfig.MODE_MODULES
+    random.shuffle(activities)
+    return await process_activities(route, 'MODE', activities)
 
 async def process_uniswap(route: Route, chain: Chain) -> Optional[bool]:
     from_token = UniswapSettings.from_token

@@ -20,6 +20,7 @@ module_handlers = {
     'SONEIUM_RANDOM_TX': process_soneium_activities,
     'ZORA_RANDOM_TX': process_zora_activities,
     'SWELL_RANDOM_TX': process_swell_activities,
+    'MODE_RANDOM_TX': process_mode_activities,
     'CLAIM_BADGES': process_badges,
     'STARGATE_BRIDGE': bridge_stargate
 }
