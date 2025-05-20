@@ -137,7 +137,8 @@ class RandomTransactionsSettings:
         'LISK': [1, 3],
         'UNICHAIN': [3, 5],
         'SWELL': [2, 3],
-        'SONEIUM': [1, 4]
+        'SONEIUM': [1, 4],
+        'MODE': [1, 3],
     }
 
 
